@@ -1,0 +1,7 @@
+{{#each users}}
+  {{#if this.isAdmin}}
+    <h2>{{this.name}}</h2>
+    {{else}}
+    <h5>{{this.name}}</h5>
+  {{/if}}
+{{/each}}
